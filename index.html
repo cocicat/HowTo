@@ -1,18 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
   <head>
     <title>How To Change Guitar Strings.</title>
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Comfortaa|Lobster+Two|Raleway:400,600" rel="stylesheet">
     <style>
-      h1{color:#004d4d;}
-      h2{color:#006666;}
-      ul{list-style-type:square}
-      div.blackwhite {
-        background-color: black;
-        color: white;
-        padding: 20px;
-        margin: 20px 0 20px 0;
-      } 
+      h1{color:#004d4d;font-family:'Raleway',sans-serif;font-weight:'600';}
+      h2{color:#006666;font-family:'Comfortaa', cursive;}
+      h3{color:#007666;font-family:'Comfortaa', cursive;}
+      p{font-family:arvo, serif;}
+      ul{list-style-type:square; font-family:arvo, serif;}
+      ol{font-family:arvo, serif;}
+      .blackwhite {
+        background-color: white;
+        color: black;
+        padding: 10px;
+        margin: 0px 0px 0px 0px;
+      }
+      .outer-box {
+        background-color:lightgrey;
+        margin:10px;
+        padding:10px;
+        min-height:300px;
+      }
+      .name {
+        color:white;
+        font-family:tahoma;
+        margin-left:20px;
+      }
+      .picture {
+        margin-left:20px;
+        float:left;
+        margin-right:20px;
+        margin-bottom:10px;
+        border:1px solid black;
+      }
+      .bio {
+        font-family:tahoma;
+        padding-left:20px;
+        padding-right:20px;
+        padding-bottom:20px;
+      }
+      img {
+        display:block;
+      }  
     </style>
   </head>
 
@@ -21,6 +52,7 @@
     <!-- used the <h1> tag-->
     <h1>How to Change Your Guitar Strings</h1>
     <!-- used the tags <p> & <i>-->
+    <div class="blackwhite">
       <p>
         Break a string? Or are your strings starting to feel a little grimy?
         Old strings can be difficult to play on <i>and</i> they can even ruin your guitar's tone!
@@ -35,6 +67,7 @@
         On the same note, changing string guages often times will require you to change the nut, as thicker strings may not fit in your current one or thinner strings might be too loose.
         Finally, this step-by-step tutorial will be on a guitar with a <i>string-through</i> construction, meaning that the strings pass through the body of the guitar. Changing strings for other types of guitar, like acoustic guitars, is a slightly different process.
       </p>
+    </div>
     <!-- used the <h2> tag-->
     <h2>Materials</h2>
     <!-- used the tags <ul> & <li>-->
@@ -93,22 +126,18 @@
     <!-- used the tags <a> <q> -->
     <p>Congratulations! You now have a fresh set of strings on your guitar! For more information, go to <a href="http://www.wikihow.com/Change-Strings-on-an-Electric-Guitar" target="_blank"> Wikihow's <q>Change Strings on an Electric Guitar</q></a></p>
     <!-- used the tags <table> <tr> <td> -->
-    <table>
-      <tr>
-        <th colspan="2">
-          About the Author
-        </th>
-      </tr>
-      <tr>
-        <td>
-    <!-- used the <img> tag -->
-          <img src="https://cocicat.github.io/HowTo/images/Face.jpg" alt="Picture of John Chung" style="width:100px;height:100px;">
-        </td>
-        <td>
-          <p>John is a student at Apostles Lutheran High School who aspires to be a mechanical engineer. John enjoys playing guitar, playing video games, and playing various sports.</p>
-        </td>
-      </tr>
-     
-    </table>
+     <div class="outer-box">
+      <div class="name">
+        <h1>About The Author</h1>
+      </div>
+      <div class="picture">
+        <img src="https://cocicat.github.io/HowTo/images/profile.jpg">
+      </div>
+      <div class="bio">
+        <h2>John Chung</h2>
+        <p> John is a student at Apostles Lutheran High School who aspires to be a mechanical engineer. John enjoys playing guitar, playing video games, and playing various sports.</p>
+      </div>
+    </div>
+    
   </body>
 </html>
