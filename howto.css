@@ -1,0 +1,44 @@
+
+
+      h1{color:#004d4d;font-family:'Raleway',sans-serif;font-weight:'600';}
+      h2{color:#006666;font-family:'Comfortaa', cursive;}
+      h3{color:#007666;font-family:'Comfortaa', cursive;}
+      p{font-family:arvo, serif;}
+      ul{list-style-type:square; font-family:arvo, serif;}
+      ol{font-family:arvo, serif;}
+      .blackwhite {
+        background-color: white;
+        color: black;
+        padding: 10px;
+        margin: 0 0 0 0;
+      }
+      .outer-box {
+        background-color:lightgrey;
+        margin:10px;
+        padding:10px;
+        min-height:300px;
+      }
+      .name {
+        color:white;
+        font-family:tahoma;
+        margin-left:20px;
+      }
+      .picture {
+        margin-left:20px;
+        float:left;
+        margin-right:20px;
+        margin-bottom:10px;
+        border:1px solid black;
+      }
+      .bio {
+        font-family:tahoma;
+        padding-left:20px;
+        padding-right:20px;
+        padding-bottom:20px;
+      }
+      img {
+        display:block;
+      } 
+      #ad {
+        float:none;
+      }
